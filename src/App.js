@@ -6,7 +6,7 @@ import Syno from "./components/Syno";
 function App() {
   return (
     <div className="container">
-      {/* <Aud></Aud> */}
+      <Aud></Aud>
       <Syno />
     </div>
   );

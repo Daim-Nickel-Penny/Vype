@@ -3,9 +3,9 @@ import synonyms from "synonyms";
 
 export default class Syno extends Component {
   constructor() {
+    super();
     this.state = {
       word: "",
-      
     };
   }
   onClick = () => {
